@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="WakeCommerce.Api/WakeCommerce.Api.csproj" />
+  <Project Path="WakeCommerce.Tests/WakeCommerce.Tests.csproj" />
+</Solution>
