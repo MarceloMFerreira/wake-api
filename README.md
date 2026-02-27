@@ -27,7 +27,7 @@ O projeto segue uma estrutura desacoplada para facilitar a manutenção e testes
 
 1.  **Clonar o repositório:**
     ```bash
-    git clone [[https://github.com/seu-usuario/wake-commerce.git](https://github.com/MarceloMFerreira/wake-api.git)](https://github.com/MarceloMFerreira/wake-api.git)
+    git clone [https://github.com/seu-usuario/wake-commerce.git](https://github.com/MarceloMFerreira/wake-api.git)](https://github.com/MarceloMFerreira/wake-api.git)
     ```
 2.  **Restaurar dependências:**
     ```bash
