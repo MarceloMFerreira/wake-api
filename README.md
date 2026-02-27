@@ -1,3 +1,4 @@
+![CI](https://github.com/MarceloMFerreira/wake-api/actions/workflows/dotnet.yml/badge.svg)
 # 🚀 WakeCommerce API - Desafio Técnico
 
 API desenvolvida para processo seletivo, focada na gestão de catálogo de produtos. O projeto demonstra boas práticas de desenvolvimento, arquitetura em camadas e testes automatizados.
@@ -21,13 +22,23 @@ O projeto segue uma estrutura desacoplada para facilitar a manutenção e testes
 2.  **Services:** Camada de lógica de negócio e validações (onde residem as regras de domínio).
 3.  **Repositories:** Comunicação com o banco de dados via EF Core utilizando a abordagem **Code-First**.
 
+## 🔄 Integração Contínua (CI)
+
+Pipeline configurado com **GitHub Actions** para validação automática do projeto:
+
+✔ Restore  
+✔ Build  
+✔ Testes unitários  
+
+O workflow é disparado automaticamente a cada push ou pull request.
+
 
 
 ## 🚀 Como Executar o Projeto
 
 1.  **Clonar o repositório:**
     ```bash
-    git clone [https://github.com/seu-usuario/wake-commerce.git](https://github.com/MarceloMFerreira/wake-api.git)](https://github.com/MarceloMFerreira/wake-api.git)
+    git clone https://github.com/MarceloMFerreira/wake-api.git
     ```
 2.  **Restaurar dependências:**
     ```bash
@@ -41,7 +52,7 @@ O projeto segue uma estrutura desacoplada para facilitar a manutenção e testes
     ```bash
     dotnet run --project WakeCommerce.Api
     ```
-    *Acesse o Swagger para testar os endpoints em: `https://localhost:7148/swagger`*
+    *Acesse o Swagger para testar os endpoints em: `http://localhost:5079/swagger`*
 
 ## 🧪 Testes Unitários
 Para garantir a qualidade das regras de negócio, utilize o comando:
