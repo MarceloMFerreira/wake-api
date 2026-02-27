@@ -32,6 +32,20 @@ Pipeline configurado com **GitHub Actions** para validação automática do proj
 
 O workflow é disparado automaticamente a cada push ou pull request.
 
+## 📌 Endpoints
+
+| Método | Rota | Descrição |
+|--------|------|-----------|
+| GET | /api/produtos | Listar produtos |
+| GET | /api/produtos/{id} | Buscar produto por ID |
+| POST | /api/produtos | Criar produto |
+| PUT | /api/produtos/{id} | Atualizar produto |
+| DELETE | /api/produtos/{id} | Deletar produto |
+### 🔍 Parâmetros de Consulta (GET /api/produtos)
+Você pode refinar a listagem utilizando os seguintes parâmetros:
+* `nome`: Filtra produtos que contenham o termo (Ex: `nome=Teclado`)
+* `ordem`: Ordena os resultados (Valores aceitos: `nome`, `valor`, `estoque`)
+
 
 
 ## 🚀 Como Executar o Projeto
